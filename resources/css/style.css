@@ -30,6 +30,7 @@ header {
 
 .main {
   display: flex;
+  justify-content: center;
 }
 
 .column.large,
@@ -55,4 +56,10 @@ header {
 
 section {
   border: 1px solid black;
+}
+
+.tuna{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  color: white;
+  font-size: 40px;
 }
