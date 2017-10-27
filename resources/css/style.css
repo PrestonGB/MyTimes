@@ -42,7 +42,6 @@ header {
 .column.large {
   width: 630px;
   flex-direction: column;
-}
 
 .column.medium {
   width: 300px;
