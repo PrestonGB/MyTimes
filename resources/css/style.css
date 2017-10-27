@@ -27,3 +27,32 @@ header {
   align-items: center;
   margin-bottom: 5px;
 }
+
+.main {
+  display: flex;
+}
+
+.column.large,
+.column.medium,
+.column.small {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  flex-direction: column;
+}
+
+section {
+  border: 1px solid black;
+}
