@@ -18,7 +18,7 @@ header {
 }
 
 .name{
-  margin: 10px;
+  margin-left: 10px
 }
 
 .logo {
@@ -37,20 +37,20 @@ header {
 .column.medium,
 .column.small {
   display: flex;
+  flex-direction: column;
+  
 }
 
 .column.large {
   width: 630px;
-  flex-direction: column;
+}
 
 .column.medium {
   width: 300px;
-  flex-direction: column;
 }
 
 .column.small {
   width: 240px;
-  flex-direction: column;
 }
 
 section {
@@ -58,39 +58,31 @@ section {
 }
 
 .tuna{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
-  display: flex;
 }
 
 .earth {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  display: flex;
 }
 
 .camera {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  display: flex;
 }
 
 .cat {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  display: flex;
 }
 
 p {
