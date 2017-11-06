@@ -114,6 +114,22 @@ header {
   text-align: center;
 }
 
+.bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bites span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+}
+
 section {
 }
 
