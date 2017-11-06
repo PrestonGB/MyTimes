@@ -31,6 +31,7 @@ header {
 .body {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 
@@ -130,11 +131,38 @@ header {
   border-bottom: 1px solid black;
 }
 
-section {
-}
-
 p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+}
+
+footer span {
+  font-size: 12px;
+  padding-left: 25px;
+}
+
+.botlogo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+.line1 {
+  margin-bottom: 15px;
 }
